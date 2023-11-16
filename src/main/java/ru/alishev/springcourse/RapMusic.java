@@ -6,15 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RapMusic implements Music{
-    private   List<String>  list = new ArrayList<>();
 
-    {
-        list.add("rapSong1");
-        list.add("rapSong2");
-        list.add("rapSong3");
-    }
     @Override
-    public List<String> getSong() {
-        return list;
+    public String getSong() {
+        return "rapSong1";
     }
 }

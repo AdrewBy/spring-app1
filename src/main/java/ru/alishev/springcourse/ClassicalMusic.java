@@ -21,15 +21,8 @@ public class ClassicalMusic implements Music{
         System.out.println("Doing my destruction");
     }
 
-  private   List<String>  list = new ArrayList<>();
-
-    {
-        list.add("classicalSong1");
-        list.add("classicalSong2");
-        list.add("classicalSong3");
-    }
     @Override
-    public List<String> getSong() {
-        return list;
+    public String getSong() {
+        return "Hungarian Rhapsody";
     }
 }
